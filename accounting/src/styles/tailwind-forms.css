@@ -1,0 +1,33 @@
+/* 📁 styles/tailwind-forms.css */
+
+.input {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.select {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.textarea {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md resize-none focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md font-semibold transition-colors duration-200;
+}
+
+.btn-primary {
+  @apply btn bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.btn-secondary {
+  @apply btn bg-gray-100 text-gray-800 hover:bg-gray-200;
+}
+
+.label {
+  @apply block text-sm font-medium text-gray-700 mb-1;
+}
+
+.section {
+  @apply p-4 bg-white rounded-md shadow-sm space-y-4;
+}

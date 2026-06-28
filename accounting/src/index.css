@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Lato', sans-serif;
+  direction: rtl; /* برای راست‌چین کردن کلی متن */
+}
+
+.sidebar {
+  height: 100%; /* ارتفاع کامل صفحه */
+  width: 160px; /* عرض سایدبار */
+  position: fixed; /* ثابت شدن موقعیت */
+  z-index: 1; /* قرارگیری در لایه بالاتر */
+  top: 0;
+  right: 0; /* چسباندن به سمت راست */
+  background-color: #111; /* رنگ پس‌زمینه */
+  overflow-x: hidden; /* مخفی کردن محتوای خارج از محدوده */
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181; /* رنگ لینک‌ها */
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1; /* تغییر رنگ لینک در حال هاور */
+}
+
+.main {
+  margin-right: 160px; /* ایجاد فاصله به اندازه عرض سایدبار */
+  padding: 0px 10px;
+}
+
+/* تنظیمات برای صفحه‌نمایش‌های کوچک (مانند موبایل) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.active-nav-link {
+  @apply bg-primary-700 text-white;
+}
