@@ -1,0 +1,245 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300;
+  }
+}
+
+/* ===== تم‌های رنگی ===== */
+:root {
+  --color-primary: #ec4899;
+  --color-primary-light: #fdf2f8;
+  --color-primary-dark: #db2777;
+  --color-primary-hover: #db2777;
+  --color-primary-gradient: linear-gradient(135deg, #ec4899, #f472b6);
+}
+
+[data-color-theme="pink"] {
+  --color-primary: #ec4899;
+  --color-primary-light: #fdf2f8;
+  --color-primary-dark: #db2777;
+  --color-primary-hover: #db2777;
+  --color-primary-gradient: linear-gradient(135deg, #ec4899, #f472b6);
+}
+
+[data-color-theme="blue"] {
+  --color-primary: #3b82f6;
+  --color-primary-light: #eff6ff;
+  --color-primary-dark: #2563eb;
+  --color-primary-hover: #2563eb;
+  --color-primary-gradient: linear-gradient(135deg, #3b82f6, #60a5fa);
+}
+
+[data-color-theme="purple"] {
+  --color-primary: #8b5cf6;
+  --color-primary-light: #f5f3ff;
+  --color-primary-dark: #7c3aed;
+  --color-primary-hover: #7c3aed;
+  --color-primary-gradient: linear-gradient(135deg, #8b5cf6, #a78bfa);
+}
+
+[data-color-theme="green"] {
+  --color-primary: #22c55e;
+  --color-primary-light: #f0fdf4;
+  --color-primary-dark: #16a34a;
+  --color-primary-hover: #16a34a;
+  --color-primary-gradient: linear-gradient(135deg, #22c55e, #4ade80);
+}
+
+[data-color-theme="rose"] {
+  --color-primary: #f43f5e;
+  --color-primary-light: #fff1f2;
+  --color-primary-dark: #e11d48;
+  --color-primary-hover: #e11d48;
+  --color-primary-gradient: linear-gradient(135deg, #f43f5e, #fb7185);
+}
+
+[data-color-theme="teal"] {
+  --color-primary: #14b8a6;
+  --color-primary-light: #f0fdfa;
+  --color-primary-dark: #0d9488;
+  --color-primary-hover: #0d9488;
+  --color-primary-gradient: linear-gradient(135deg, #14b8a6, #2dd4bf);
+}
+
+/* ===== استایل‌های DatePicker ===== */
+.react-datepicker-wrapper {
+  width: 100% !important;
+}
+
+.react-datepicker {
+  font-family: inherit !important;
+  border-radius: 12px !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.dark .react-datepicker {
+  background-color: #1f2937 !important;
+  border-color: #374151 !important;
+}
+
+.react-datepicker__header {
+  background-color: var(--color-primary-light) !important;
+  border-radius: 12px 12px 0 0 !important;
+  border-bottom: 1px solid #e5e7eb !important;
+}
+
+.dark .react-datepicker__header {
+  background-color: #374151 !important;
+  border-color: #4b5563 !important;
+}
+
+.react-datepicker__current-month {
+  color: #1f2937 !important;
+  font-weight: 600 !important;
+}
+
+.dark .react-datepicker__current-month {
+  color: #f3f4f6 !important;
+}
+
+.react-datepicker__day {
+  color: #1f2937 !important;
+  border-radius: 50% !important;
+  transition: all 0.2s !important;
+}
+
+.dark .react-datepicker__day {
+  color: #f3f4f6 !important;
+}
+
+.react-datepicker__day:hover {
+  background-color: var(--color-primary) !important;
+  color: white !important;
+}
+
+.react-datepicker__day--selected {
+  background-color: var(--color-primary) !important;
+  color: white !important;
+}
+
+.react-datepicker__day--today {
+  border: 2px solid var(--color-primary) !important;
+}
+
+.react-datepicker__day--weekend {
+  color: #ef4444 !important;
+}
+
+.dark .react-datepicker__day--weekend {
+  color: #f87171 !important;
+}
+
+.react-datepicker__day--disabled {
+  color: #9ca3af !important;
+  cursor: not-allowed !important;
+}
+
+.dark .react-datepicker__day--disabled {
+  color: #6b7280 !important;
+}
+
+.react-datepicker__day-name {
+  color: #6b7280 !important;
+  font-weight: 600 !important;
+}
+
+.dark .react-datepicker__day-name {
+  color: #9ca3af !important;
+}
+
+.react-datepicker__navigation {
+  top: 12px !important;
+}
+
+.react-datepicker__navigation-icon::before {
+  border-color: #6b7280 !important;
+}
+
+.react-datepicker__navigation:hover .react-datepicker__navigation-icon::before {
+  border-color: var(--color-primary) !important;
+}
+
+/* RTL پشتیبانی */
+html.rtl .react-datepicker {
+  direction: rtl !important;
+}
+
+html.rtl .react-datepicker__header {
+  text-align: center !important;
+}
+
+/* اسکرول بار */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-blue-500 dark:bg-blue-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-blue-600 dark:bg-blue-700;
+}
+
+/* کلاس‌های کمکی */
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-primary-light {
+  background-color: var(--color-primary-light);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.hover\:bg-primary-hover:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.border-primary {
+  border-color: var(--color-primary);
+}
+
+.from-primary {
+  --tw-gradient-from: var(--color-primary);
+}
+
+.to-primary-light {
+  --tw-gradient-to: var(--color-primary-light);
+}
+
+.bg-primary-gradient {
+  background: var(--color-primary-gradient);
+}
+
+.focus\:ring-primary:focus {
+  --tw-ring-color: var(--color-primary) !important;
+}
+
+/* RTL استایل‌ها */
+html.rtl {
+  direction: rtl;
+}
+
+html.rtl .space-x-reverse {
+  --tw-space-x-reverse: 1;
+}
+
+[dir="rtl"] .text-left {
+  text-align: right !important;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left !important;
+}

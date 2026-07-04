@@ -1,0 +1,144 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --rtl: true;
+  }
+  
+  body {
+    font-family: 'IRANSans', 'Tahoma', 'Vazirmatn', sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+  }
+  
+  .rtl {
+    direction: rtl;
+  }
+  
+  .ltr {
+    direction: ltr;
+  }
+  
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #0A8E7B, #2563eb);
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #067a69, #1d4ed8);
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-6xl mx-auto px-4;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl shadow-lg overflow-hidden transition-shadow hover:shadow-xl;
+  }
+  
+  .btn-primary {
+    @apply bg-medical hover:bg-primary-600 text-white font-semibold py-2 px-6 rounded-lg transition-all hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold py-2 px-6 rounded-lg transition-all;
+  }
+}
+
+/* Line clamp for article summaries */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Smooth transitions */
+* {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+/* src/index.css - اضافه کردن به انتهای فایل */
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Sidebar scroll */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 10px;
+}
+
+/* Active menu item highlight */
+.sidebar-link.active {
+  background-color: #eff6ff;
+  color: #2563eb;
+}
+
+.sidebar-link.active .icon-wrapper {
+  background-color: #dbeafe;
+}
+/* RTL Support */
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+/* زبان‌ها */
+.rtl .flex-row {
+  flex-direction: row-reverse;
+}
+
+.ltr .flex-row {
+  flex-direction: row;
+}
+
+/* فونت برای فارسی و انگلیسی */
+.rtl body {
+  font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', sans-serif;
+}
+
+.ltr body {
+  font-family: 'Inter', 'Segoe UI', 'Tahoma', sans-serif;
+}

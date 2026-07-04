@@ -1,0 +1,200 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "treatments": "Treatments",
+    "resources": "Resources"
+  },
+  "hero": {
+    "title1": "Regenerative aesthetics.",
+    "title2": "Natural beauty",
+    "title3": "Medical excellence",
+    "description": "Dr. Tahmineh Marzban is a DHA licensed aesthetic physician with over 31 years of medical experience, specializing in regenerative aesthetics and non-surgical facial rejuvenation. Her approach combines advanced science with natural-looking results to help patients achieve healthy, youthful skin without surgery.",
+    "cta": "Book appointment"
+  },
+  "treatments": {
+    "title": "Treatments",
+    "subtitle": "Advanced aesthetic solutions",
+    "precision": "Precision injectables for refined facial contours",
+    "items": [
+      {
+        "category": "Injectables",
+        "name": "Botox for natural expression",
+        "desc": "Smooth lines while maintaining facial movement"
+      },
+      {
+        "category": "Injectables",
+        "name": "Dermal fillers for volume restoration",
+        "desc": "Restore lost volume with natural-looking fullness"
+      },
+      {
+        "category": "Regenerative",
+        "name": "Skin boosters for cellular renewal",
+        "desc": "Stimulate skin's natural regeneration from within"
+      },
+      {
+        "category": "Regenerative",
+        "name": "Biostimulators for lasting rejuvenation",
+        "desc": "Encourage collagen production for sustained results"
+      }
+    ],
+    "explore": "Explore >"
+  },
+  "about": {
+    "title": "Three decades of refinement",
+    "description": "Dr. Tahmineh Marzban brings over 31 years of medical expertise to aesthetic medicine. Her practice is rooted in scientific precision and an unwavering commitment to natural beauty.",
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "whyChoose": "Why choose Dr. Tahmineh Marzban",
+    "tailored": "Each treatment is tailored to your unique beauty",
+    "results": {
+      "title": "Results",
+      "desc": "Natural-looking outcomes that enhance beauty",
+      "desc2": "Subtle refinement that respects your unique features"
+    },
+    "science": {
+      "title": "Science",
+      "desc": "Advanced regenerative medicine at the forefront",
+      "desc2": "Evidence-based treatments grounded in clinical research"
+    },
+    "threeDecades": "Three decades"
+  },
+  "testimonials": {
+    "title": "Patient voices",
+    "subtitle": "Real transformations, authentic experiences",
+    "items": [
+      {
+        "quote": "Dr. Tahmineh's approach is refreshingly honest. She listens, understands what you want, and delivers results that look like the best version of yourself.",
+        "name": "Sarah Al Mansouri",
+        "role": "Dubai resident, verified patient"
+      }
+    ]
+  },
+  "instagram": {
+    "title": "Instagram gallery",
+    "subtitle": "Glimpses of refined aesthetic medicine in practice",
+    "posts": [
+      {
+        "title": "Botox Injection Safety Factors",
+        "author": "Dr. Taimina Xipeleni Gerasimovski, Aesthetician"
+      },
+      {
+        "title": "How to Practice Safe Sun",
+        "author": "Dr. Taimina Xipeleni Gerasimovski, Aesthetician"
+      },
+      {
+        "title": "What Is PDRN Skin Repair & Regeneration",
+        "author": "Dr. Taimina Xipeleni Gerasimovski, Aesthetician"
+      }
+    ]
+  },
+  "consultation": {
+    "title": "Begin your transformation",
+    "subtitle": "Schedule a private consultation with Dr. Tahmineh Marzban to discuss your aesthetic goals",
+    "book": "Book",
+    "message": "Message"
+  },
+  "footer": {
+    "name": "Dr. Tahmineh Marzban",
+    "subname": "AESTHETIC DERMATOLOGY MARZBAN",
+    "about": "About",
+    "treatments": "Treatments",
+    "articles": "Articles",
+    "contact": "Contact",
+    "gallery": "Gallery",
+    "copyright": "© 2025 Dr. Tahmineh Marzban. All rights reserved.",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service",
+    "cookies": "Cookie settings"
+  },
+  "signup": {
+    "text": "Sign up to comment, edit, inspect and more.",
+    "button": "Sign up",
+    "continue": "Continue"
+  },
+  "cookie": {
+    "title": "This website uses cookies, pixel tags, and local storage for performance, personalization, and marketing purposes.",
+    "description": "We use our own cookies and some from third parties. Only essential cookies are turned on by default.",
+    "settings": "Cookies settings",
+    "deny": "Do not allow cookies",
+    "allow": "Allow all cookies"
+  },
+
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "nationalCode": "National Code",
+    "nationalCodePlaceholder": "Enter your national code",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPassword": "Confirm Password",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "loginTitle": "Welcome Back",
+    "loginSubtitle": "Login to manage your appointments",
+    "registerTitle": "Create Account",
+    "registerSubtitle": "Register to book appointments",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "required": "This field is required",
+    "invalidPhone": "Invalid phone number",
+    "invalidNationalCode": "Invalid national code (must be 10 digits)",
+    "loginSuccess": "Login successful!",
+    "registerSuccess": "Registration successful!",
+    "loginError": "Login failed. Please check your credentials.",
+    "registerError": "Registration failed. Please try again."
+  },
+  "booking": {
+    "title": "Book Appointment",
+    "subtitle": "Schedule your consultation with Dr. Tahmineh Marzban",
+    "selectDate": "Select Date",
+    "selectTime": "Select Time",
+    "selectService": "Select Service",
+    "serviceConsultation": "Consultation",
+    "serviceFollowUp": "Follow-up",
+    "serviceTreatment": "Treatment",
+    "serviceEmergency": "Emergency",
+    "notes": "Additional Notes",
+    "notesPlaceholder": "Any special requests or notes...",
+    "submit": "Book Appointment",
+    "success": "Appointment booked successfully!",
+    "error": "Failed to book appointment. Please try again.",
+    "pending": "Booking...",
+    "confirm": "Confirm Appointment",
+    "cancel": "Cancel",
+    "required": "Please fill in all required fields",
+    "phoneRequired": "Phone number is required",
+    "nationalCodeRequired": "National code is required"
+  },
+  "appointments": {
+    "title": "My Appointments",
+    "noAppointments": "No appointments found",
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "date": "Date",
+    "time": "Time",
+    "service": "Service",
+    "actions": "Actions",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "reschedule": "Reschedule"
+  },
+  "validation": {
+    "required": "This field is required",
+    "phone": "Please enter a valid phone number (11 digits)",
+    "nationalCode": "Please enter a valid national code (10 digits)",
+    "minLength": "Minimum {count} characters required",
+    "maxLength": "Maximum {count} characters allowed",
+    "passwordMatch": "Passwords do not match",
+    "email": "Please enter a valid email address"
+  }
+}

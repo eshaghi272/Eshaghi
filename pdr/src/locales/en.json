@@ -1,0 +1,116 @@
+{
+  "header": {
+    "title": "Dr. Parastoo Karimi Aliabadi",
+    "subtitle": "Nephrology Specialist",
+    "home": "Home",
+    "profile": "Doctor Profile",
+    "contact": "Contact Info",
+    "articles": "Articles",
+    "comments": "Reviews",
+    "admin": "Admin",
+    "dashboard": "Dashboard"
+  },
+  "profile": {
+    "title": "Academic & Professional Profile",
+    "subtitle": "Complete doctor information and contact methods",
+    "specialist": "Nephrology Specialist",
+    "medicalCode": "Medical Code",
+    "faculty": "Faculty Member",
+    "university": "Mazandaran University of Medical Sciences",
+    "rating": "Average rating from",
+    "reviews": "patient reviews",
+    "specialty": "Specialty",
+    "nephrology": "Nephrology",
+    "articlesCount": "Scientific Articles",
+    "bio": "Dr. Parastoo Karimi Aliabadi, Nephrology Specialist and faculty member of Mazandaran University of Medical Sciences, provides specialized medical services in the field of kidney diseases using the latest knowledge and advanced diagnostic equipment. With a scientific and patient-centered approach, they follow the treatment process step by step and are always committed to research and knowledge production in the field of diabetes and kidney diseases."
+  },
+  "contact": {
+    "title": "Contact Information",
+    "subtitle": "Contact us for appointments and consultations",
+    "phone": "Clinic Phone",
+    "mobile": "Mobile",
+    "email": "Email",
+    "address": "Clinic Address",
+    "workingHours": "Working Hours",
+    "appointment": "By appointment only",
+    "viewOnMap": "View on Map",
+    "socialMedia": "Social Media",
+    "call": "Call Clinic",
+    "onlineAppointment": "Online Appointment",
+    "whatsapp": "WhatsApp Message"
+  },
+  "articles": {
+    "title": "Scientific Articles",
+    "subtitle": "Latest scientific findings and published articles",
+    "noArticles": "No articles found",
+    "summary": "Article Summary",
+    "readMore": "Read Full Article",
+    "views": "Views",
+    "showSummary": "Show Summary",
+    "close": "Close",
+    "category": "Category"
+  },
+  "comments": {
+    "title": "Patient Reviews",
+    "subtitle": "Experiences and feedback from patients",
+    "newComment": "Write a Review",
+    "name": "Full Name",
+    "namePlaceholder": "Enter your name",
+    "rating": "Your Rating",
+    "commentText": "Your Review",
+    "commentPlaceholder": "Write your review about Dr. Karimi's medical services...",
+    "submit": "Submit Review",
+    "submitting": "Submitting...",
+    "success": "Your review was submitted successfully and will be displayed after approval.",
+    "noComments": "No reviews yet. Be the first!",
+    "verified": "Verified",
+    "pending": "Pending Approval",
+    "approved": "Approved"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "subtitle": "Manage reviews and articles",
+    "logout": "Logout",
+    "comments": "Reviews",
+    "articles": "Articles",
+    "manageComments": "Manage Reviews",
+    "pendingComments": "pending review",
+    "noComments": "No reviews submitted",
+    "approve": "Approve Review",
+    "delete": "Delete Review",
+    "manageArticles": "Manage Articles",
+    "newArticle": "New Article",
+    "articleTitle": "Article Title",
+    "category": "Category",
+    "summary": "Article Summary",
+    "fullText": "Full Text (Optional)",
+    "imageUrl": "Image URL (Optional)",
+    "publish": "Publish Article",
+    "cancel": "Cancel",
+    "noArticles": "No articles published",
+    "deleteArticle": "Delete Article"
+  },
+  "stats": {
+    "totalVisits": "Total Visits",
+    "totalComments": "Total Reviews",
+    "totalArticles": "Articles",
+    "averageRating": "Average Rating"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "designed": "Made with ❤️ for better patient care"
+  },
+  "weekDays": {
+    "saturday": "Sat",
+    "sunday": "Sun",
+    "monday": "Mon",
+    "tuesday": "Tue",
+    "wednesday": "Wed",
+    "thursday": "Thu",
+    "friday": "Fri"
+  },
+  "common": {
+    "closed": "Closed",
+    "contactUs": "Contact Us"
+  }
+}
